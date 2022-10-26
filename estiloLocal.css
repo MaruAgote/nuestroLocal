@@ -1,0 +1,39 @@
+.Titulo{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.TituloMedio{
+    background-color:#ffe5ef; 
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    letter-spacing: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.imagen{
+    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.Parrafo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.imagen2{
+    display: flex;
+    justify-content: left ;
+   }
+.imagen3{
+    display: flex;
+    justify-content: right ;
+}
