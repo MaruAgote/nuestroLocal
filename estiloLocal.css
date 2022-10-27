@@ -1,39 +1,42 @@
-.Titulo{
+.nuestroLocal_tituloPrincipal_section_div{
     text-align: center;
     letter-spacing: 5px;
+    font-family: 'roboto', serif;
+    font-size: 2.5em;
 }
 
-.TituloMedio{
+.nuestroLocal_tituloMedio_section_div{
     background-color:#ffe5ef; 
     text-align: center;
     display: block;
     width: 100%;
     padding: 20px;
     letter-spacing: 15px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'roboto', serif;
+    font-size: 2em;
 }
 
 
-.imagen{
-    margin: 50px;
-    display: block;
+.nuestroLocal_imagen_section_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.nuestroLocal_parrafo_section_div{
+    font-family: 'roboto', serif;
+    text-align: justify;
+    width: 50%;
+    font-size: 1.8em;
+    letter-spacing: 1px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+        
+}
+.nuestroLocal_imagenes_section_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.Parrafo{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    
-}
-
-.imagen2{
-    display: flex;
-    justify-content: left ;
-   }
-.imagen3{
-    display: flex;
-    justify-content: right ;
-}
